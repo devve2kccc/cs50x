@@ -1,0 +1,7 @@
+Ask the user for input of the number of blocks to be printed
+If the input is less than 1 or greater than 8, go back to step 1
+For each row from 0 to the number of blocks - 1:
+    For each column from 0 to the number of blocks - 1:
+        If the sum of the row and column is less than the number of blocks - 1, print a space
+        Otherwise, print a hash symbol
+    Print a new line after each row.
